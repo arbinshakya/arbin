@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;        
+    }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(280deg,rgba(11, 11, 11, 0.9)50%,transparent 50%),
+    url("https://images.unsplash.com/photo-1489781879256-fa824b56f24f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    position: absolute;
+   
+
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    background-attachment: fixed;
+    
+  
+    
+}
+   
+
+    .box{
+        font-family: "Roboto", sans-serif;
+        font-size: 52px;
+        font-weight: bolder;
+        color: black;
+        display: flex;  
+        padding-top: 80px;
+        
+      
+        
+        
+        
+        
+    }
+        
+
+    .nav-bar{
+        height: 50px;
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:transparent;
+        font-family:"Roboto",sans-serif;
+        backdrop-filter: blur(0px) ;
+        padding: 0;
+        margin: 0;
+        
+        
+    }
+    
+    .nav-link{
+        text-align: right;
+        display: flex;
+        font-family: "Roboto", sans-serif;
+        gap: 20px;
+        margin-right: 1%;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    } 
+    
+    nav ul li a:hover{
+         color: #1f7aab ;
+    } 
+
+    .header-section h1{
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        align-items: center;
+        margin-left: 15px;
+        position: absolute;
+        
+    }
+
+    .container{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column; 
+        gap: 40px;
+        justify-content: center;
+        position: absolute;
+        right: 170px;
+        top: 70px;
+    }
+
+    .container1{
+        display: flex;
+        justify-content: right;
+        padding-right: 83px;
+        margin-top: -175px;
+    }
+
+    .boxes{
+        overflow: scroll;
+        font-family:"Roboto", sans-serif;
+        color: white;
+        font-style:normal;
+        display: flex;
+        width: 400px;
+        height: 400px;
+        background-color: t;
+        border-radius: 5px;
+        border-color: aliceblue;
+        backdrop-filter: blur(0px);
+        transition: 0.5s;
+        text-align: center;  
+      
+        
+        justify-content: center;   
+        
+    }
+
+    .boxes::-webkit-scrollbar{
+        height: 0;
+    }
+
+    .boxes:hover{
+        transform: scale(1.1);
+    
+    }
+
+    .column{
+        
+        padding: 0px;
+
+    }
+
+
+    .text{
+        
+        padding-top: 10px; 
+        padding-left: 10px;
+        text-align: center;
+        font-weight: bold;
+     
+    }
+
+    .content-box{
+        font-family: "Roboto",sans-serif;
+        padding-top: 10px;
+        padding-left: 10px;
+        color: white;
+        display: flex;
+        justify-content: left;
+        width: 400px;
+        height: 200px;
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 10px;
+        border-color: transparent;
+        backdrop-filter: blur(5px);
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    .content-box:hover{
+        transform: scale(1.1);
+
+    
+    }
+
+    .texts{
+      
+        top: 180px;
+        left: 200px;
+        position: absolute;
+        font-weight: bolder;
+    }
+
+    .button{
+        
+        padding-top:50px ;
+        
+    }
+    
+    .img{
+        top: 190px;
+        left: 150px;
+        position: relative;
+       
+  
+        
+
+    }
+    .h {
+        top:40px;
+        left: 10px;
+        position: absolute;
+    }
+
+    .container1{
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+
+    .deg{
+        top: 250px;
+        left:200px;
+        position: absolute;
+    }
+
+    .texts-1{
+        position: absolute;
+        font-size: 40%;
+        right: 1px;
+        bottom: 12px;
+    }
+
+    #days {
+        font-weight: normal;
+        justify-content: left;
+        text-align: left;
+        padding: 15px;
+    
+    }
+
+    #h3{
+        font-size: 34px;
+    }
+
+    .dat{
+        position: absolute;
+        font-size: 40%;
+        right: 4px;
+        bottom: -31px;
+    }
+
+    .m{
+        position: absolute;
+        padding-right: 186px;
+        bottom: 684px;
+        height: 100px;
+        width: 100px;
+    }

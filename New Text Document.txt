@@ -1,0 +1,23 @@
+import numpy as np
+
+# Calculate the mean of the data along the columns (i.e., feature dimension)
+mean = np.mean(Std, axis=0)
+
+# Calculate the covariance matrix of the data
+# The formula for the covariance matrix is:
+#   cov = (X - mean(X))' * (X - mean(X)) / (n - 1)
+# where X is the data matrix and n is the number of samples
+cov = (Std - mean).T.dot((Std - mean)) / (Std.shape[0] - 1)
+
+# Print the covariance matrix
+print('Covariannce Matrix: \n%s' %cov)
+
+
+gcc filename.c lodepng.c -o objname
+For compiling codes
+./objname
+
+gcc file.c -o abc -pthread
+
+gcc filename.c
+filename
